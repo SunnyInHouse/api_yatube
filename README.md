@@ -62,10 +62,10 @@ python3 manage.py runserver
 Получение списка публикаций:
 GET http://127.0.0.1:8000/api/v1/posts/
 
-Создание публикации POST:
-http://127.0.0.1:8000/api/v1/posts/
+Создание публикации:
+POST http://127.0.0.1:8000/api/v1/posts/
 
 Получение списка комментариев к публикации:
-http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
+GET http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
 
 
